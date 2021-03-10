@@ -1,0 +1,14 @@
+<resources>
+    <string name="BringYourUmbrella">app_name</string>
+    <string name="language">com.example.bringyourumbrella.language</string>
+    <string name="english">english</string>
+    <string name="romana">romana</string>
+    <string name="weekHour">weekTimeHour</string>
+    <string name="weekMinute">weekTimeMinute</string>
+    <string name="longitude">longitude</string>
+    <string name="latitude">latitude</string>
+    <string name="location">Location</string>
+    <string name="temp">Temperature</string>
+
+
+</resources>
