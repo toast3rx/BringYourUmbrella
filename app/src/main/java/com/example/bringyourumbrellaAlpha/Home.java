@@ -78,7 +78,7 @@ public class Home extends AppCompatActivity {
             longitude = sharedPreferences.getString(getString(R.string.longitude), "0");
             latitude = sharedPreferences.getString(getString(R.string.latitude), "0");
 
-            //api.openweathermap.org/data/2.5/weather?lat=44.350410&lon=24.102470&units=metric&appid=43d3bc589eb35129c8ab7e859254034b
+            //api.openweathermap.org/data/2.5/weather?lat=44.350410&lon=24.102470&units=metric&appid=ApiKey
              urlString = "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&units=metric&appid=" + MyApp.API_KEY;
             new CheckWeather().execute(new URL(urlString));
         } catch (Exception exception){
